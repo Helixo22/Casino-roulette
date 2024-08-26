@@ -1,20 +1,6 @@
 {
-  "builds": [
-    {
-      "src": "app/package.json",
-      "use": "@vercel/next"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/app/*"
-    }
-  ],
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/"
-    }
+      {"source": "/(.*)", "destination": "/"}
   ]
 }
+
